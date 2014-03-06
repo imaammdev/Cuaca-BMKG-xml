@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface cuacaBmkgViewController : UIViewController
+@interface cuacaBmkgViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, NSXMLParserDelegate>
+
+@property (nonatomic,strong) NSMutableArray *timetableDictionaries;
+@property (nonatomic,strong) NSMutableArray *tableData;
+@property (nonatomic,strong) NSMutableArray *cuaca;
+@property (nonatomic,strong) NSMutableDictionary *currentTimetableDictionary;
+@property (nonatomic,copy) NSString *currentElementName;
 
 @end

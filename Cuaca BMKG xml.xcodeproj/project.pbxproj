@@ -384,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cuaca BMKG xml/Cuaca BMKG xml-Prefix.pch";
 				INFOPLIST_FILE = "Cuaca BMKG xml/Cuaca BMKG xml-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cuaca BMKG xml/Cuaca BMKG xml-Prefix.pch";
 				INFOPLIST_FILE = "Cuaca BMKG xml/Cuaca BMKG xml-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +465,7 @@
 				1158DDBD18C5995700052314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1158DDBE18C5995700052314 /* Build configuration list for PBXNativeTarget "Cuaca BMKG xmlTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +474,7 @@
 				1158DDC018C5995700052314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
