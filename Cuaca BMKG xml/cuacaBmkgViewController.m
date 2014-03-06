@@ -21,6 +21,7 @@
 @synthesize tableData;
 @synthesize cuaca;
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -40,7 +41,7 @@
       
     }
     
-    NSLog(@"%@",tableData);
+    NSLog(@"%@",timetableDictionaries);
   
     
 }
@@ -57,7 +58,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString *simpleTableIdentifier = @"inicell";
+    static NSString *simpleTableIdentifier = @"untukcell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     

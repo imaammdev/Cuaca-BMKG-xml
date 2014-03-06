@@ -16,4 +16,6 @@
 @property (nonatomic,strong) NSMutableDictionary *currentTimetableDictionary;
 @property (nonatomic,copy) NSString *currentElementName;
 
+
+
 @end
